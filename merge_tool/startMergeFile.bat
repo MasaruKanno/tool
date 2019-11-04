@@ -18,3 +18,5 @@ for /F %%a in ('dir /B /ON %INPUT_FILE_PATH%*.csv') do (
 
 rem tmpファイルをoutputフォルダへ移動し、csvファイルへリネーム
 move %INPUT_FILE_PATH%%OUTPUT_FILE_TMP% %OUTPUT_FILE_PATH%%OUTPUT_FILE% 
+
+pause
